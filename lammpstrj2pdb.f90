@@ -71,7 +71,7 @@ read(10,*)za,zb,zc
 read(10,900)title
 
 
-write(12,'(a6,3f9.3,3f8.2,a16)')'CRYST1',xb,yb,zb,90.0,90.0,90.0,' P 1           1'
+write(12,'(a6,3f9.3,3f7.2,a16)')'CRYST1',xb,yb,zb,90.0,90.0,90.0,' P 1           1'
 write(12,'(a5,i9)')'MODEL',it
 do j=1,nat
 
